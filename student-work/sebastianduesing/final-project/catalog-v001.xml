@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1795129291927" name="http://purl.obolibrary.org/obo/cob.owl" uri="build/COB_source.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1795129291927" name="http://purl.obolibrary.org/obo/iao.owl" uri="build/IAO_source.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1795129291927" name="http://purl.obolibrary.org/obo/obi.owl" uri="build/OBI_source.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1795129291927" name="https://example.org/dbo/dbo-external.owl" uri="src/ontology/dbo-external.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1795129291927" name="https://example.org/dbo/dbo.owl" uri="dbo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1795129291927" name="https://example.org/dbo/dev/COB_imports.owl" uri="src/ontology/imports/COB_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1795129291927" name="https://example.org/dbo/dev/IAO_imports.owl" uri="src/ontology/imports/IAO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1795129291927" name="https://example.org/dbo/dev/OBI_imports.owl" uri="src/ontology/imports/OBI_imports.owl"/>
+    </group>
+</catalog>

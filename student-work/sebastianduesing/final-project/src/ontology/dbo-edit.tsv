@@ -1,0 +1,4 @@
+ontology ID	entity type	label	alternative label	definition	definition source	example of usage	term editor	editor note	class type	superclass	axiom	super property	domain	range
+ID	TYPE	AL rdfs:label@en	A alternative label	AL definition@en	A definition source SPLIT=|	A example of usage SPLIT=|	A term editor SPLIT=|	A editor note SPLIT=|	CLASS_TYPE	C %	C % SPLIT=|	P %	DOMAIN	RANGE
+DBO:0000000	class	database		A database is an organized collection of data managed by a database management system.	https://en.wikipedia.org/wiki/Database				subclass	data collection	'is specified input of' some ('data transformation' and ('has participant' some 'database management system'))			
+DBO:0000001	class	database management system	DBMS	A piece of software that provides utilities for database administration, through which end users and applications access the database.	https://en.wikipedia.org/wiki/Database				subclass	software				
