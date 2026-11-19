@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://example.org/dbo/dev/2026-11-19/COB_imports.owl" uri="imports/COB_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="https://example.org/dbo/dev/2026-11-19/OBI_imports.owl" uri="imports/OBI_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="https://example.org/dbo/dev/2026-11-19/IAO_imports.owl" uri="imports/IAO_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ro/releases/2026-09-04/core.owl" uri="http://purl.obolibrary.org/obo/ro/core.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1795125209808" name="https://example.org/dbo/dev/dbo-external.owl" uri="dbo-external.owl"/>
+    </group>
+</catalog>
