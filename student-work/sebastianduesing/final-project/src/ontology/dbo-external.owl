@@ -20,7 +20,7 @@
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
     <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
     <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
-    <Import>http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl</Import>
     <Import>http://purl.obolibrary.org/obo/ro/releases/2026-09-04/core.owl</Import>
     <Import>https://example.org/dbo/dev/2026-11-19/COB_imports.owl</Import>
     <Import>https://example.org/dbo/dev/2026-11-19/IAO_imports.owl</Import>
