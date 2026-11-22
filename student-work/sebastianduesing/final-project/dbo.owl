@@ -16,13 +16,14 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://example.org/dbo/dbo.owl">
-        <owl:versionIRI rdf:resource="https://example.org/dbo/2026-11-21/dbo.owl"/>
+        <owl:versionIRI rdf:resource="https://example.org/dbo/2026-11-22/dbo.owl"/>
         <dc:creator>Sebastian Duesing</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-19</dc:date>
         <dc:description xml:lang="en">A provisional ontology of relational databases.</dc:description>
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title xml:lang="en">Database Ontology</dc:title>
         <owl:versionInfo>2026-11-21</owl:versionInfo>
+        <owl:versionInfo>2026-11-22</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2916,6 +2917,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is accessed through the use of a database management system.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Database</obo:IAO_0000119>
         <rdfs:label xml:lang="en">database</rdfs:label>
     </owl:Class>
@@ -2927,6 +2929,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <owl:Class rdf:about="https://example.org/dbo/DBO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
         <obo:IAO_0000115 xml:lang="en">A piece of software that provides utilities for database administration, through which end users and applications access the database.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000118>DBMS</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Database</obo:IAO_0000119>
         <rdfs:label xml:lang="en">database management system</rdfs:label>
@@ -2949,6 +2952,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 xml:lang="en">A database that presents data to the user in tabular form and provides relational operators to manipulate that tabular data.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000118>RDB</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Relational_database</obo:IAO_0000119>
         <rdfs:label xml:lang="en">relational database</rdfs:label>
@@ -2967,6 +2971,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a relational database and that consists of a heading defining a set of attributes and a body made up of data in tuples corresponding to those attributes.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000118>table</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Relational_model</obo:IAO_0000119>
         <rdfs:label xml:lang="en">relation</rdfs:label>
@@ -2991,6 +2996,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a relation and that contains the names and data types of each attribute in the relation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000118>header</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Relational_model</obo:IAO_0000119>
         <rdfs:label xml:lang="en">relation header</rdfs:label>
@@ -3015,6 +3021,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a relation and that consists of all tuples in that relation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000118>body</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Relational_model</obo:IAO_0000119>
         <rdfs:label xml:lang="en">relation body</rdfs:label>
@@ -3033,6 +3040,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a relation and that consists of zero or more values that are each part of one attribute in the relation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000118>row</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Relational_model</obo:IAO_0000119>
         <rdfs:label xml:lang="en">tuple</rdfs:label>
@@ -3051,6 +3059,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a relation and that consists of at most one value from each tuple in the relation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000118>column</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Relational_model</obo:IAO_0000119>
         <rdfs:label xml:lang="en">attribute</rdfs:label>
@@ -3075,6 +3084,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a tuple and an attribute.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000118>database value</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Relational_model</obo:IAO_0000119>
         <rdfs:label xml:lang="en">value</rdfs:label>
@@ -3097,6 +3107,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a database.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <rdfs:label xml:lang="en">database component</rdfs:label>
     </owl:Class>
     
@@ -3125,6 +3136,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A data transformation that produces a relation from an input database based on the specification of an input query.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <rdfs:label xml:lang="en">querying process</rdfs:label>
     </owl:Class>
     
@@ -3135,6 +3147,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <owl:Class rdf:about="https://example.org/dbo/DBO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that determines the contents of the relation output by a querying process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <rdfs:label xml:lang="en">query</rdfs:label>
     </owl:Class>
     
